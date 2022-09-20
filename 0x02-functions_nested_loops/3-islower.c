@@ -1,11 +1,14 @@
 #include "main.h"
 /**
+*
+*
+*
+*
  */
 int _islower(int c);
 {
-  char ch;
+  int var1 = 'c';
 
-  if(_islower(int ch))
+  if(_islower(var1))
     return(1);
-
 }
