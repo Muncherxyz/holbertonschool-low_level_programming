@@ -15,5 +15,4 @@ char ch;
   {
     _putchar ('\n');
   }
-  return (0);
 }
