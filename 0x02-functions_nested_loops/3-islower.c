@@ -5,7 +5,7 @@
 *
 *
  */
-int _islower(int c);
+int _islower(int c)
 {
   int var1 = 'c';
 
