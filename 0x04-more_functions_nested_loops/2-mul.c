@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * mul
- * a, b= both variables
+ * mul - multiplies both variables
+ * @a: - random number
+ *@b: - random number
+ * Return - returns the sum of both
  *
  */
 int mul(int a, int b)
