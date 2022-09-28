@@ -4,7 +4,7 @@
  * @n: integer parameters
  *
  */
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 int x, i;
 
@@ -18,7 +18,6 @@ for (i = 0; i < x; i++)
 _putchar(' ');
 _putchar(92);
 _putchar('\n');
-}
 }
 }
 }
