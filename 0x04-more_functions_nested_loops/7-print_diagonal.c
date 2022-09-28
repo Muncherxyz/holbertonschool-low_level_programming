@@ -1,13 +1,24 @@
 #include "main.h"
 /**
- *
+ * print_diagonal - prints  line
+ * @n: integer parameters
  *
  */
 void print_diagonal(int n);
 {
-int l;
-for(l = '0'; c <= n; l++)
-_putchar('\');
-if(n <=0);
-_putchar('\n')
+int x, i;
+
+if (n <= 0)
+_putchar('\n');
+else
+{
+for (x = 0; x < n; x++)
+{
+for (i = 0; i < x; i++)
+_putchar(' ');
+_putchar(92);
+_putchar('\n');
+}
+}
+}
 }
