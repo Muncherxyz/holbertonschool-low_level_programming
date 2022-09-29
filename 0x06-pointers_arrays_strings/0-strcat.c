@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * _strcat - function to combine two strings
  * @dest: parameter pointer to char
