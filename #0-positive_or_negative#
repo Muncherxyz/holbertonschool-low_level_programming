@@ -1,0 +1,13 @@
+
+do
+{
+echo "$n is positive"
+} while ($n >= 0);
+do
+{
+echo "$n is zero"
+} while ($n = 0)
+do
+{
+echo "$n is negative"
+} while ($n <=0)
