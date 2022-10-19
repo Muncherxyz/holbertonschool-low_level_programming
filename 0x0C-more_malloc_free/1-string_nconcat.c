@@ -10,6 +10,9 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
+char *dummy;
+dummy = malloc(5);
+free(dummy);
 unsigned int i, j, k;
 char *s;
 if (s1 == NULL)
@@ -34,7 +37,7 @@ return (NULL);
 for (k = 0; k < i; k++)
 s[k] = s1[k];
 for (k = 0; k < j; k++)
-s[k+j] = s2[k];
+s[k + j] = s2[k];
 s[i + j] = '\0';
 return (s);
 }
